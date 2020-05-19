@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @babel/cli @babe/lcore @babel/plugin-proposal-object-rest-spread @babel/preset-env babel-loader webpack webpack-cli webpack-dev-server
+
+PATH: 
+  C:\Users\Usuario\Downloads\CMDER\bin;C:\Users\Usuario\Downloads\CMDER\vendor\bin;C:\Users\Usuario\Downloads\CMDER\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Usuario\Downloads\CMDER\vendor\conemu-maximus5;C:\Users\Usuario\Downloads\CMDER\vendor\conemu-maximus5\ConEmu;C:\Ruby26-x64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Acer ProShield\;C:\Program Files\Acer ProShield\x86;C:\xampp\php;C:\composer;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Dart\dart-sdk\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Hudson\AppData\Local\Microsoft\WindowsApps;C:\Users\Hudson\AppData\Roaming\Composer\vendor\bin;c:\mtl-multisync\Rewriters\_msrgallwinner.zip\;C:\Users\Hudson\AppData\Roaming\npm;C:\Users\Hudson\AppData\Local\Yarn\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MongoDB\Server\4.1\bin;C:\Users\Hudson\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Exercism;C:\Users\Hudson\codenation;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Usuario\Downloads\CMDER;C:\Users\Usuario\Downloads\CMDER\vendor\git-for-windows\cmd;C:\Users\Usuario\Downloads\CMDER\vendor\git-for-windows\mingw64\bin;C:\Users\Usuario\Downloads\CMDER\vendor\git-for-windows\usr\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babe%2flcore: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65200:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:129590:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130562:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130484:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1154:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  {
+    "name": "exercicio-01",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
